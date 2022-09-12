@@ -1,0 +1,25 @@
+{
+  "name": "@jaspero/similarity",
+  "version": "0.0.1",
+  "description": "Website similarity testing with puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jp-similarity": "./index.js",
+    "jps": "./index.js"
+  },
+  "author": {
+    "name": "Jaspero Ltd",
+    "email": "info@jaspero.co"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "9.4.0",
+    "fs-extra": "10.1.0",
+    "inquirer": "8.1.2",
+    "puppeteer": "17.1.3",
+    "resemblejs": "4.1.0"
+  }
+}
